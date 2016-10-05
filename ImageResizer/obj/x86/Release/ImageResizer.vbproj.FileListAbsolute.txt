@@ -1,0 +1,13 @@
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\bin\Release\ImageResizer.exe
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\bin\Release\ImageResizer.pdb
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\bin\Release\ImageResizer.xml
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\obj\x86\Release\WindowsApplication1.Form1.resources
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\obj\x86\Release\WindowsApplication1.Resources.resources
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\obj\x86\Release\ImageResizer.vbproj.GenerateResource.Cache
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\obj\x86\Release\ImageResizer.exe
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\obj\x86\Release\ImageResizer.xml
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\obj\x86\Release\ImageResizer.pdb
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\bin\Release\ImageResizer.exe.manifest
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\bin\Release\ImageResizer.application
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\obj\x86\Release\ImageResizer.exe.manifest
+C:\Users\Abhijeet\documents\visual studio 2010\Projects\ImageResizer\ImageResizer\obj\x86\Release\ImageResizer.application

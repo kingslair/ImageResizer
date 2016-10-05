@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ImageResizer.exe" version="1.0.0.0" publicKeyToken="4f724fa18fc24881" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ImageResizer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ImageResizer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ImageResizer.exe" size="691200">
+      <assemblyIdentity name="ImageResizer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>oxB1c+57JlhhyN9KXiyMMKlbJXQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Abhijeet-HP\Abhijeet" issuerKeyHash="125f68cf70d83bc4d0feb3eed6cc763bbd144b69" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KwHyYZ2XBpR1kxSgX+HmvZFIhNQ=</DigestValue></Reference></SignedInfo><SignatureValue>Q8/I1PJ4DAQImRyH1kdiEY7ZPAt5YxGxTh7q/Lsf4w53ZTh0lsS2w1tZJ5PWKPtRyqcMUwC2rv0mShRdIHRLUtTaqIMuwfHiUKGmWd7L7hXvbdsLimf584WW6KM2IhLIYoj+36zgWJCTpRVUNdj1PufWcjSElUrsx9G+an6E3uk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tvFiqCotlfrRaaAFprizzgPh5zODiJM0kglNwTQrMcnTYPA32kHo82IRaQ/dXfKvaiFUEdW2DdpvjTBJ8H3IvBZsifohdsKu95C0VHk2PiZ9U5bYlxJJj5ZrrN8j9cRX6PzXEBsjLxHHc0DpDXMWKVuYfPHRTpJDKXOyIqZka/s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d4844891bde6e15fa01493759406979d61f2012b" Description="" Url=""><as:assemblyIdentity name="ImageResizer.exe" version="1.0.0.0" publicKeyToken="4f724fa18fc24881" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Abhijeet-HP\Abhijeet</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>50wFYvwnCYYS2D1mFgrRFAFyG38=</DigestValue></Reference></SignedInfo><SignatureValue>hMnbQApRm+UvysN1UOrKlfG0pYq5oGUE5IgpWCGLh9EkVJ8LUcugFqnrOMOnx231L8Ln/yoE+1gHGGUqrKTiHHVpSbkdzYBCyoYoOc31/g1siohCTlOtQ1PE6sfITVPTmRgAYRSNIuBAZrQjooN4WTeDeeEILI+7iACYKY32ZDo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tvFiqCotlfrRaaAFprizzgPh5zODiJM0kglNwTQrMcnTYPA32kHo82IRaQ/dXfKvaiFUEdW2DdpvjTBJ8H3IvBZsifohdsKu95C0VHk2PiZ9U5bYlxJJj5ZrrN8j9cRX6PzXEBsjLxHHc0DpDXMWKVuYfPHRTpJDKXOyIqZka/s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQN/9om4BZh7lP/Q8glPJSeTANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigAQQBiAGgAaQBqAGUAZQB0AC0ASABQAFwAQQBiAGgAaQBqAGUAZQB0MB4XDTE2MTAwNTE0MTY1NFoXDTE3MTAwNTIwMTY1NFowMzExMC8GA1UEAx4oAEEAYgBoAGkAagBlAGUAdAAtAEgAUABcAEEAYgBoAGkAagBlAGUAdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtvFiqCotlfrRaaAFprizzgPh5zODiJM0kglNwTQrMcnTYPA32kHo82IRaQ/dXfKvaiFUEdW2DdpvjTBJ8H3IvBZsifohdsKu95C0VHk2PiZ9U5bYlxJJj5ZrrN8j9cRX6PzXEBsjLxHHc0DpDXMWKVuYfPHRTpJDKXOyIqZka/sCAwEAATANBgkqhkiG9w0BAQUFAAOBgQA6BOOTC598MOn/HmVM4zWTWu2oJ3qVxBBBkctQhbyoCZYH5R4mf2ACvs4BiuAj/nndQNjFzXbK3QSm8zE9ibOneL48MQFBMHpTf+elBqgncj09n6TmtZ/I5d66D+HI6vxmY54ktnr18fqoXQFOySO9aIgOq2QMXm4WhaV0s2m5Jw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
